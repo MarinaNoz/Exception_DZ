@@ -12,7 +12,7 @@ public class Task4 {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        System.out.println("Input text:" + result);
+        System.out.println("Input text: \"" + result +"\"");
     }
     private static String inputText() throws Exception {
         String result;
@@ -25,4 +25,6 @@ public class Task4 {
         return result;
     }
 }
+
+  
 
